@@ -110,4 +110,4 @@ class LandingPage(View):
         context = {
             'message': "Hello from Django!"
         }
-        return render(request, 'myself_page.html', context)
+        return render(request, 'landing_page.html', context)
